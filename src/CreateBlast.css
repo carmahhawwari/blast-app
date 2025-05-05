@@ -1,0 +1,34 @@
+.create-blast-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  textarea, input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+  }
+  .friends-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  .friend {
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .friend.selected {
+    background-color: #dcd0ff;
+  }
+  button {
+    background-color: #6c1fff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+  }
+  

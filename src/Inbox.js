@@ -21,6 +21,7 @@ function Root() {
   );
 }
 
+// ✅ React 18+ uses `createRoot`, not `ReactDOM.render`
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(<Root />);
