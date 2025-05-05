@@ -1,0 +1,13 @@
+import React from "react";
+import BlastSender from "./BlastSender";
+import './Layout.css';
+
+
+export default function BlastPage() {
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>Send a Blast</h1>
+      <BlastSender />
+    </div>
+  );
+}

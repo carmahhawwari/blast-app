@@ -1,0 +1,18 @@
+/* Login.css */
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background: #6200ee;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  
